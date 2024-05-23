@@ -66,7 +66,41 @@ Projeto voltado para o 3 (Saúde e Bem-estar), 12 (Consumo e Prodrução Respons
 
 ## 🛠 Estrutura de pastas
 
+-Raiz<br>
+|<br>
+|-->documentos<br>
+ &emsp;| Testes_e_Qualidade_de_Software-_Butterfly_Effect.pdf<br>
+|-->imagens<br>
+|-->src<br>
+ &emsp;|-->Backend<br>
+ &emsp;|-->Frontend<br>
+| .gitignore<br>
+| README.md<br>
 
+## 🛠 Instalação
+
+<b>Android:</b>
+
+Faça o Download do JOGO.apk no seu celular.
+Execute o APK e siga as instruções de seu telefone.
+
+```sh
+Coloque código do prompt de comnando se for necessário
+```
+
+<b>Windows:</b>
+
+Não há instalação! Apenas executável!
+Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+
+```sh
+Coloque código do prompt de comnando se for necessário
+```
+
+<b>HTML:</b>
+
+Não há instalação!
+Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 🗃 Histórico de lançamentos
 
@@ -87,7 +121,7 @@ Projeto voltado para o 3 (Saúde e Bem-estar), 12 (Consumo e Prodrução Respons
     * finalização backend
 * 8 - 23/05/2024
     * Concluido o aplicativo
-
+    
 ## 📋 Licença/License
 
 ## 🎓 Referências
