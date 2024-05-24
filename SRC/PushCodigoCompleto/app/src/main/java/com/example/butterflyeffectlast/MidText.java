@@ -8,7 +8,7 @@ import android.os.Handler;
 
 public class MidText extends AppCompatActivity {
 
-    private static final int TEMPO_DE_ATRASO = 9000; // Tempo em milissegundos (5 segundos)
+    private static final int TEMPO_DE_ATRASO = 15000; // Tempo em milissegundos (5 segundos)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
