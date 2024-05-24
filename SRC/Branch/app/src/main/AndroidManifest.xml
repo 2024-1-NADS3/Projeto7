@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/bluebf_ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bluebf_ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ButterflyEffect"
+        tools:targetApi="31">
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene8"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene7"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha27"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha24"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha13"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha26"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha25"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha23"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha21"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha22"
+            android:exported="false" />
+        <activity
+            android:name=".MidText"
+            android:exported="false" />
+        <activity
+            android:name=".BadText"
+            android:exported="false" />
+        <activity
+            android:name=".GoodText"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene6"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene5"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha12"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha14"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene4"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene3"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha11"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha3"
+            android:exported="false" />
+        <activity
+            android:name=".GoodEND"
+            android:exported="false" />
+        <activity
+            android:name=".BadEND"
+            android:exported="false" />
+        <activity
+            android:name=".MidEND"
+            android:exported="false"
+            android:theme="@style/Theme.ButterflyEffect" />
+        <activity
+            android:name=".Campanha10"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha9"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha8"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha7"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha6"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha5"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha4"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha2"
+            android:exported="false" />
+        <activity
+            android:name=".Campanha1"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene2"
+            android:exported="false" />
+        <activity
+            android:name=".Cutscene1"
+            android:exported="false" />
+        <activity
+            android:name=".TelaInicial"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

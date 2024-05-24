@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quarto_fundo"
+    tools:context=".Campanha3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="288dp"
+        android:background="#000000"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:paddingStart="45dp"
+        android:text="Para onde você gostaria de ir? "
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/botaoIraoparque"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaoIraomercado"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="82dp"
+        android:fontFamily="@font/press_start_2p"
+        android:onClick="BotaoIrMercado"
+        android:text="Ir ao mercado"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoIraoparque" />
+
+    <Button
+        android:id="@+id/botaoIraoparque"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="159dp"
+        android:fontFamily="@font/press_start_2p"
+        android:onClick="BotaoIrParque"
+        android:text="Ir ao parque "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="288dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="206dp"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
