@@ -12,9 +12,12 @@ public class TelaInicial extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-    public void BotaoJogar(View view){
 
+        // Parar a música
+        Campanha1.stopMusic();
+    }
+
+    public void BotaoJogar(View view) {
         Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
