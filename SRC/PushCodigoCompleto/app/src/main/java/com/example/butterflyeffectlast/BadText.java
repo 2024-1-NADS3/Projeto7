@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.os.Handler;
 
-import com.example.butterflyeffectlast.R;
-
 public class BadText extends AppCompatActivity {
 
     private static final int TEMPO_DE_ATRASO = 9000; // Tempo em milissegundos (5 segundos)

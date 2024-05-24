@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.os.Handler;
 
-import com.example.butterflyeffectlast.R;
-
 public class BadEND extends AppCompatActivity {
 
     private static final int TEMPO_DE_ATRASO = 3000; // Tempo em milissegundos (10 segundos)
