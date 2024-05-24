@@ -70,6 +70,8 @@ Projeto voltado para o 3 (Saúde e Bem-estar), 12 (Consumo e Prodrução Respons
 |<br>
 |-->documentos<br>
  &emsp;| Testes_e_Qualidade_de_Software-_Butterfly_Effect.pdf<br>
+ &emsp;| Descrição_do_Jogo_Play_Store.dox<br>
+ &emsp;| Politica_Privacidade.dox<br>
 |-->imagens<br>
 |-->src<br>
  &emsp;|-->Backend<br>
